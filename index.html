@@ -3,10 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>My Todo Application</title>
+    <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-你好 黄淳杨！！！
-<script src="/Users/huangchunyang/WebstormProjects/todo/node_modules/jquery/dist/jquery.js"></script>
+<div class="container">
+    <div class="add-task">
+        <input type="text">
+        <button>submit</button>
+    </div>
+    <div class="task-list">
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 2</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 3</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 4</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 5</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+    </div>
+    <div class="task-detail">
+        <div class="content"></div>
+        <div>
+            <div class="desc">
+            </div>
+        </div>
+        <div class="remind">
+            <input type="date">
+            <button type="submit">submit</button>
+        </div>
+    </div>
+</div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="js/base.js"></script>
 </body>
 </html>
